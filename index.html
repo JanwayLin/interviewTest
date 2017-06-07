@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header wrapper">
+        <div class="content">
+            <a class="top_left" href="#"></a>
+            <div class="top_right_wrapper">
+                <a class="top_right top_right_r" href="#"><span>返回官网首页</span><i class="arrow"></i></a>
+                <span class="top_right line">|</span>
+                <a class="top_right top_right_m" href="#">点劵充值</a>
+                <span class="top_right line">|</span>
+                <a class="top_right top_right_l" href="#">游戏下载</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content_container wrapper">
+
+        <div class="content banner">
+            <div class="banner_top">
+                <a href="#" class="download"><span class="download_ico"></span><span>下载游戏</span></a>
+                <a href="#" class="home"><span class="home_ico"></span><span>进入官网</span></a>
+            </div>
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+            <p class="date">活动时间<span class="whitespace_s">:</span>12月1日00:00--12月18日23<span class="whitespace_s">:</span>29</p>
+            <div class="chongzhi" id="chongzhi">
+                <a href="#"></a>
+            </div>
+            <p class="login">您好<span class="whitespace_s">,</span>请 <a href="#">登录</a></p>
+        </div>
+
+        <div class="content main">
+
+            <div class="nav_content">
+                <a href="#" id="pcBtn" class="pc_active nav"></a>
+                <a href="#" id="mobileBtn" class="mobile nav"></a>
+            </div>
+
+            <div class="content lvyin_gift" id="lvyin_gift">
+                <p class="readme">1.<span class="whitespace_l"></span>玩家在活动期间在FIFA ONLINE 3中充值<span class="yellow">任意金额点券</span>(仅支持在PC端充值<span class="whitespace_s">,</span>且不包含<span class="whitespace_l"></span>充值VIP)可领取绿茵礼包一份<span class="whitespace_s">,</span>每个帐号只能领取一次<span class="whitespace_s">;</span></p>
+                <ul class="lvyin_header">
+                    <li class="football1"></li>
+                    <li class="lylb"></li>
+                    <li class="football2"></li>
+                </ul>
+                <ul class="lvyin_cards">
+                    <li class="ly_card1"><p class="double"><span>16EC赛季球员卡</span><span>Best300x3</span></p></li>
+                    <li class="ly_card2"><p class="double"><span>最强混合赛季</span><span>Best100球员卡x1</span></p></li>
+                    <li class="ly_card3"><p class="double"><span>06U赛季Best100球员卡</span><span>( 2~5强 ) x3</span></p></li>
+                    <li class="ly_card4"><p class="single">50%经验转移券x1</p></li>
+                    <li class="ly_card5"><p class="single">EPx5000000</p></li>
+                    <li class="ly_card6"><p class="single">EPx5000000</p></li>
+                </ul>
+                <p class="ly_award">
+                    <a href="#" id="ly_award"><img id="ly_img" src="./img/ly_award_active.png" alt=""></a>
+                </p>
+               <div class="alert" id="alert"></div>
+            </div>
+
+            <div class="content m_charge_content hide" id="m_charge_content">
+                <p class="readme"><span class="whitespace_l"></span>玩家在活动期间在FIFA ONLINE 3 M中充值规定数额的FC可额外获赠一定数量FC<span class="whitespace_s">,</span><span class="whitespace_s">(</span>仅支持在移动端充值<span class="whitespace_s">,</span>且不包含充值VIP<span class="whitespace_s">)</span><span class="whitespace_s">,</span>每档奖励只能领取一次<span class="whitespace_s">;</span></p>
+                <ul class="m_charge_pics">
+                    <li class="">
+                        <span class="top">充值3000FC</span><span class="bottom">送300FC</span>
+                    </li>
+                    <li class="">
+                    <span class="top">充值9800FC</span><span class="bottom">送1200FC</span>
+                    </li>
+                    <li class="">
+                    <span class="top">充值32800FC</span><span class="bottom">送4900FC</span>
+                    </li>
+                    <li class="">
+                    <span class="top">充值64800FC</span><span class="bottom">送13000FC</span>
+                    </li>
+                </ul>
+                <div class="alert"></div>
+            </div>
+
+            <div class="content honor_gift" id="honor_gift">
+                <p class="readme">2.<span class="whitespace_l"></span>玩家在活动期间在FIFA ONLINE 3中充值<span class="yellow">4900点券</span>(仅支持在PC端充值<span class="whitespace_s">,</span>且不包含充值VIP)可领取荣耀礼包一份<span class="whitespace_s">,</span>每个帐号只能领取一次<span class="whitespace_s">;</span></p>
+                <ul class="ry_header">
+                    <li class="ry_football1"></li>
+                    <li class="rylb"></li>
+                    <li class="ry_football2"></li>
+                </ul>
+                <ul class="ry_cards">
+                    <li class="ry_card1"><p class="double"><span>16EC赛季Best50</span><span>球员卡x1</span></li>
+                    <li class="ry_card2"><p class="double"><span>16EC赛季Best100</span><span>球员卡x3</span></li>
+                    <li class="ry_card3"><p class="double"><span>14TOT赛季Best50</span><span>球员卡 ( 2~5强 ) x3</span></li>
+                    <li class="ry_card4"><p class="double"><span>14TOT赛季Best50</span><span>球员卡 ( 2~5强 ) x3</span></li>
+                    <li class="ry_card5"><p class="double double1"><span>巅峰传奇混合Best100</span><span>球员卡x1</span></li>
+                    <li class="ry_card6"><p class="single"><span>Lv15经验等级卡x1</span></li>
+                    <li class="ry_card7"><p class="single">EPx20000000</p></li>
+                    <li class="ry_card8"><p class="single">EPx20000000</p></li>
+                </ul>
+                <p class="ry_award">
+                    <a href="#" id="ry_award"><img id="ry_img" src="./img/ry_award.png" alt=""></a>
+                </p>
+            </div>
+
+            <div class="content m_reward_list hide" id="m_reward_list">
+                <ul class="m_reward_header">
+                    <li class="ry_football1"></li>
+                    <li class="hjlb"></li>
+                    <li class="ry_football2"></li>
+                </ul>
+                <div class="list">
+                    
+                        <p class="list_header">                            
+                            <span class="col_one">获奖号码</span>
+                            <span class="col_two">时间</span>
+                            <span class="col_three">礼包名称</span>
+                        </p>
+                        <p class="list_content">                           
+                             <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content"> 
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content">    
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content">                            
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content">
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                            </p>
+                        <p class="list_content">    
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content">
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                        <p class="list_content">
+                            <span class="col_one">123456987987</span>
+                            <span class="col_two">2017-04-27</span>
+                            <span class="col_three">我是礼包我是礼包我是礼包</span>
+                        </p>
+                </div>
+            </div>
+
+            <div class="content active_rules" id="active_rules">
+                <ul class="rules_header">
+                    <li class="ry_football1"></li>
+                    <li class="active_rule"></li>
+                    <li class="ry_football2"></li>
+                </ul>
+                <ul class="rules_content">
+                    <li><span class="index">1</span>活动时间<span class="whitespace_s">:</span>12月1日00:00-12月18日23:59<span class="whitespace_s">;</span></li>
+                    <li><span class="index">2</span>12月1日00:00-12月18日23:59在PC端满足任意一条上述充值条件可以获得相应11月首充豪礼<span class="whitespace_s">;</span></li>
+                    <li><span class="index">3</span>领取奖励的玩家需要绑定所在大区和角色<span class="whitespace_s">,</span>每个帐号同一个首充礼包只能领取一次<span class="whitespace_s">;</span></li>
+                    <li><span class="index">4</span>完成充值后的玩家即可在活动页面点击领取相应奖励<span class="whitespace_s">;</span></li>
+                    <li><span class="index">5</span>PC端首充奖励将自动发放到游戏礼物盒<span class="whitespace_s">,</span>请玩家朋友们注意查收.</li>
+                </ul>
+            </div>
+
+            <div class="content m_active_rules hide" id="m_active_rules">
+                <ul class="m_rules_header">
+                    <li class="ry_football1"></li>
+                    <li class="active_rule"></li>
+                    <li class="ry_football2"></li>
+                </ul>
+                <ul class="m_rules_content">
+                    <li><span class="index">1</span>活动时间<span class="whitespace_s">:</span>12月1日00:00-12月18日23:59<span class="whitespace_s">;</span></li>
+                    <li><span class="index">2</span>12月1日11:00-12月18日23:59在移动端充值上述四档固定数额的FC即可获赠一定数量的F奖励<span class="whitespace_s">,</span>每个帐号每个档位限充一次<span class="whitespace_s">;</span></li>
+                    <li><span class="index">3</span>单次充值<span class="whitespace_s">,</span>仅可领取相应档次赠送FC奖励. 如充值32800FC只可获赠4900FC<span class="whitespace_s">,</span>不能获得充值3000FC和9800FC的FC奖励<span class="whitespace_s">;</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer wrapper">
+        <div class="content">
+            <ul class="footer_content">
+                <li class="co">
+                    <span class="r_top r"><a href="#">腾讯互动娱乐</a><span class="r_line"></span><a href="" target="_blank">服务条款</a><span class="r_line"></span><a href="" target="_blank">广告服务</a><span class="r_line"></span><a href="" target="_blank">腾讯游戏招聘</a><span class="r_line"></span><a href="" target="_blank">腾讯游戏客服</a><span class="r_line"></span><a href="" target="_blank">游戏地图</a><span class="r_line"></span><a href="" target="_blank">游戏活动</a><span class="r_line"></span><a href="" target="_blank">商务合作</a><span class="r_line"></span><a href="" target="_blank">腾讯网</a><span class="r_line"></span><a href="" target="_blank">网站导航</a></span>
+                    <span class="r_middle r" style="font-family:Arial;"><span class="left">COPYRIGHT © 2015 TENCENT. All RIGHTS RESERVED</span><span class="right">腾讯公司 版权所有</span></span>
+                    <span class="r_foot r">互联网出版经营许可证 ISBN978—7-89989-999-1<span>网络文化经营许可证 新广出审[2014]649号</span></span>
+                    <span class="en"></span>
+                </li>
+                <li class="footer_fifa">
+                    <a href="#"></a>
+                </li>
+                <li class="footer_ea">
+                    <a href="#"></a>
+                </li>
+            
+                    
+               
+            </ul>
+             <a href="#" class="footer_tencent"></a>
+        </div>
+            
+         
+        
+    </div>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>
